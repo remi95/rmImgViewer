@@ -22,22 +22,20 @@ Ensuite, il vous suffit d'appliquer le plugin sur l'élément parent de vos imag
 
 ```html
 <div id="gallery">
-		<img src="img/img_1.jpeg">
-		<img src="img/img_2.jpeg">
-		<img src="img/img_3.jpeg">
-		...
-		<img src="img/img_10.jpeg">
-	</div>
+	<img src="img/img_1.jpeg">
+	<img src="img/img_2.jpeg">
+	<img src="img/img_3.jpeg">
+	...
+	<img src="img/img_10.jpeg">
+</div>
 ```
 ```javascript
-	<script type="text/javascript">
-		$('#gallery').rmImgViewer();
-	</script>
+	$('#gallery').rmImgViewer();
 ```
 
 ### Paramètres
 
-Sachez qu'il est possible de personnaliser certains éléments du rmImgViewer.  
+Sachez qu'il est possible de personnaliser certains éléments du **rmImgViewer**.  
 Plus précisemment vous pouvez modifier :  
 - Le temps de défilement des images
 - La couleur du fond
@@ -48,16 +46,15 @@ Plus précisemment vous pouvez modifier :
 Par **défaut**, les paramètres sont les suivants.
 
 ```javascript
-<script type="text/javascript">
-	$('#gallery').rmImgViewer({
-		slideTime: 500,		// (int) temps en millisecondes
-		bgColor: '0, 0, 0, 0.7',	// (string) format rgba()
-		pointerOnImg: true,		// (boolean) 'pointer' par défaut
-		imgBtnLeft: 'https://image.flaticon.com/icons/svg/226/226170.svg',	// (string) Url de l'image
-		imgBtnRight: 'https://image.flaticon.com/icons/svg/226/226171.svg',  // (string) Url de l'image
-		cursorExit: 'pointer',	// (string) type de curseur
-	});
-</script>
+$('#gallery').rmImgViewer({
+	slideTime: 500,														// (int) temps en millisecondes
+	bgColor: '0, 0, 0, 0.7',											// (string) format rgba()
+	pointerOnImg: true,													// (boolean) 'pointer' par défaut
+	imgBtnLeft: 'https://image.flaticon.com/icons/svg/226/226170.svg',	// (string) Url de l'image
+	imgBtnRight: 'https://image.flaticon.com/icons/svg/226/226171.svg', // (string) Url de l'image
+	cursorExit: 'pointer',												// (string) type de curseur
+});
 ```
 
-Merci à (Flaticon)[https://www.flaticon.com/] à qui j'emprunte les images des flèches. 
+
+Merci à [Flaticon](https://www.flaticon.com/) à qui j'emprunte les images des flèches. 
