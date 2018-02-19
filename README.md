@@ -30,7 +30,7 @@ Ensuite, il vous suffit d'appliquer le plugin sur l'élément parent de vos imag
 </div>
 ```
 ```javascript
-	$('#gallery').rmImgViewer();
+$('#gallery').rmImgViewer();
 ```
 
 ### Paramètres
@@ -47,12 +47,12 @@ Par **défaut**, les paramètres sont les suivants.
 
 ```javascript
 $('#gallery').rmImgViewer({
-	slideTime: 500,														// (int) temps en millisecondes
-	bgColor: '0, 0, 0, 0.7',											// (string) format rgba()
-	pointerOnImg: true,													// (boolean) 'pointer' par défaut
+	slideTime: 500,		// (int) temps en millisecondes
+	bgColor: '0, 0, 0, 0.7',	// (string) format rgba()
+	pointerOnImg: true,		// (boolean) 'pointer' par défaut
 	imgBtnLeft: 'https://image.flaticon.com/icons/svg/226/226170.svg',	// (string) Url de l'image
 	imgBtnRight: 'https://image.flaticon.com/icons/svg/226/226171.svg', // (string) Url de l'image
-	cursorExit: 'pointer',												// (string) type de curseur
+	cursorExit: 'pointer',		// (string) type de curseur
 });
 ```
 
