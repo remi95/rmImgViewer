@@ -1,6 +1,7 @@
 # rmImgViewer
 
-_Développé par [Rémi Mafat](http://www.remimafat.fr)._
+_Développé par [Rémi Mafat](http://www.remimafat.fr)._  
+Vous pouvez voir un [exemple basique](http://www.remimafat.fr/projet/rm-img-viewer) sur mon site web.
 
 [English version](#rmimgviewer-english)
 
@@ -68,7 +69,8 @@ Merci à [Flaticon](https://www.flaticon.com/) à qui j'emprunte les images des 
 
 # rmImgViewer - English
 
-_Developed by [Rémi Mafat](http://www.remimafat.fr)._
+_Developed by [Rémi Mafat](http://www.remimafat.fr)._  
+You can see a [basic example](http://www.remimafat.fr/projet/rm-img-viewer) on my website.
 
 This Javascript plugin simply turn your image gallery into a full-screen slideshow.
 
