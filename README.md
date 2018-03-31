@@ -123,12 +123,12 @@ By **default**, parameters are next.
 
 ```javascript
 $('#gallery').rmImgViewer({
-	slideTime: 500,		// (int) temps en millisecondes
+	slideTime: 500,		// (int) time in ms
 	bgColor: '0, 0, 0, 0.7',	// (string) format rgba()
-	pointerOnImg: true,		// (boolean) 'pointer' par défaut
-	imgBtnLeft: 'https://image.flaticon.com/icons/svg/226/226170.svg',	// (string) Url de l'image
-	imgBtnRight: 'https://image.flaticon.com/icons/svg/226/226171.svg', // (string) Url de l'image
-	cursorExit: 'pointer',		// (string) type de curseur
+	pointerOnImg: true,		// (boolean) 'pointer' by default
+	imgBtnLeft: 'https://image.flaticon.com/icons/svg/226/226170.svg',	// (string) image url
+	imgBtnRight: 'https://image.flaticon.com/icons/svg/226/226171.svg', // (string) image url
+	cursorExit: 'pointer',		// (string) cursor type
 });
 ```
 
