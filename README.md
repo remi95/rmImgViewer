@@ -1,7 +1,7 @@
 # rmImgViewer
 
 _Développé par [Rémi Mafat](http://www.remimafat.fr)._  
-Vous pouvez voir un [exemple basique](http://www.remimafat.fr/projet/rm-img-viewer) sur mon site web.
+Vous pouvez voir un [exemple basique](http://www.remimafat.fr/exemple/rm-img-viewer) sur mon site web.
 
 [English version](#rmimgviewer-english)
 
